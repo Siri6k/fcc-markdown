@@ -39,23 +39,44 @@ img {
   display: block;
   font-size: large;
   font-weight: bold;
-  background-color: aquamarine;
+  background-color: aqua;
   width: 100%;
   border: 1px solid black;
 }
 .container {
   margin-bottom: 20px;
   margin-top: 20px;
-  width: 80%;
-  max-width: 500px;
+  width: 60%;
+  max-width: 400px;
   border: 1px solid black;
+  background-color: aquamarine;
 }
 .text-area {
   width: 60%;
   height: 200px;
+  max-width: 300px;
   margin-bottom: 20px;
 }
 #editor {
   height: 200px;
   width: 100%;
+}
+
+/* Style the table */
+table {
+  width: 50%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+/* Style the table header */
+th,
+td {
+  border: 10px solid black;
+  padding: 15px;
+}
+
+/* Add a hover effect to the table rows */
+tr:hover {
+  background-color: #ddd;
 }

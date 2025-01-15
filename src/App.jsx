@@ -26,6 +26,7 @@ export default class App extends React.Component {
       <div className="d-flex flex-column min-vh-100 min-vw-100 align-items-center justify-content-center">
         <div className="container d-flex flex-column text-area">
           <label className="label" htmlFor="editor">
+            <img src={fccLogo} alt="freeCodeCamp Logo" />
             Editor
           </label>
           <textarea
